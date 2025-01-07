@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//insertion sort function
 void insertion_Sort(int arr[], int n){
     for(int i=1; i<n; i++){
         int temp = arr[i];
